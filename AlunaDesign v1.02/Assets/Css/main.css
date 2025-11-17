@@ -508,7 +508,7 @@ hr {
 
     .text-content {
         text-align: center;
-        left: 10px;
+        left: 0px;
     }
 
     .see-more {
@@ -519,7 +519,7 @@ hr {
 
     .our {
         align-content: center;
-        padding-left: 70px;
+        padding-left: 50px;
     }
 
     .content {
@@ -553,19 +553,30 @@ hr {
     }
 
     /* Modificando sección servicios */
+    .Services {
+        width: auto;
+
+        text-align: center;
+    }
 
     .text-services {
-        padding-left: 50px;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    #work {
+        font-size: 25px;
     }
 
     .text-services p {
         font-size: smaller;
-        text-align: center;
+        padding: auto;
         width: auto;
-        padding-right: 40px;
+
     }
 
     .cards-info {
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -598,6 +609,12 @@ hr {
 
     .text-service p {
         padding-bottom: 20px;
+    }
+
+    .more {
+
+        padding: 10px 25px;
+        text-align: center;
     }
 
     .content-2 {
@@ -637,15 +654,15 @@ hr {
 
     /* modificando sección about */
     .text-about {
-        max-width: 412px;
+        width: auto;
         text-align: center;
         padding: 20px 0 0 0;
     }
 
     .text-about p {
-        width: 300px;
+        width: auto;
         font-size: smaller;
-        padding: 0px 60px;
+        padding: 0px 25px;
     }
 
     .cards-pjs {
@@ -676,8 +693,10 @@ hr {
     }
 
     .open {
-        display: block;
-        padding: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 10px;
+        width: auto;
         text-align: center;
     }
 
@@ -689,6 +708,12 @@ hr {
         padding: 0px;
     }
 
+    .section-contact h4 {
+        padding: 0px 0px;
+        align-items: center;
+        text-align: center;
+    }
+
     .text-contact {
         padding: 15px 0 0 0;
         text-align: center;
@@ -697,10 +722,9 @@ hr {
     /* Sección footer */
     .content-footer {
         display: block;
-        margin: 0;
-        padding: 0;
-        align-items: center;
         text-align: center;
+        padding: auto;
+        width: auto;
     }
 
     .content-footer hr {
@@ -711,25 +735,29 @@ hr {
 
     #version-destokp {
         display: none;
-        height: 1px;
+
     }
 
     #version-movil {
         display: flex;
-        width: clamp(81px, 100vw, 418px);
-        padding: 30px 50px 15px 80px;
+        justify-content: center;
+        padding: 30px 0px 15px 0px;
     }
 
     .text-footer {
-        padding: 20px 50px 5px 103px;
+        display: flex;
+        justify-content: center;
         text-align: center;
+        padding: 15px 0px;
+        width: auto;
     }
 
     .derechos-reservados {
-        padding-top: 15px;
-        padding-left: 60px;
+        display: flex;
+        justify-content: center;
         text-align: center;
-
+        padding: 15px 0px;
+        width: auto;
     }
 
 

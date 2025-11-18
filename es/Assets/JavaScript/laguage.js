@@ -12,15 +12,4 @@ document.addEventListener('DOMContentLoaded', function () {
     if (selectLang) {
         selectLang.addEventListener('change', changeLanguage);
     }
-
-    // Para móvil - detectar cuando el menú se abre/cierra si es necesario
-    const menuCheckbox = document.getElementById('menu');
-    if (menuCheckbox) {
-        menuCheckbox.addEventListener('change', function () {
-            // Si el menú se abre, asegurar que el selector funciona
-            if (this.checked) {
-                console.log('Menú móvil abierto');
-            }
-        });
-    }
 });

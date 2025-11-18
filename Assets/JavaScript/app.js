@@ -6,7 +6,7 @@ spanish.addEventListener('click', SPA)
 
 
 function SPA() {
-    let change = location.href = "../Es/index.html";
+    let change = location.href = "../es/index.html";
 }
 
 function ENG() {

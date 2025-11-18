@@ -73,21 +73,6 @@ nav ul a:hover {
 
 
 
-#btn-language {
-    color: #000000;
-    padding: 12px;
-    border: 2px solid black;
-    border-radius: 12px;
-    transition: 0.3s ease;
-}
-
-#btn-language:hover {
-    color: white;
-    border: 2px solid white;
-}
-
-
-
 .btn-contact {
     border-radius: 12px;
     padding: 14px 34px;

@@ -6,7 +6,7 @@ spanish.addEventListener('click', SPA)
 
 
 function SPA() {
-    let change = location.href = "../Es/index.html";
+    let change = location.href = ".../AlunaDesign v1.02/Es/index.html";
 }
 
 function ENG() {

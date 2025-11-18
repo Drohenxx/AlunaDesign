@@ -763,6 +763,10 @@ hr {
 /* Version desktop (1920 x 1080) */
 
 @media (width: 1920px) {
+    html {
+        overflow-x: hidden;
+    }
+
     nav {
         margin: 0 100px;
     }

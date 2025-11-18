@@ -1,26 +1,27 @@
 document.addEventListener('DOMContentLoaded', function () {
     const selectLang = document.getElementById('menulang');
 
-    // Función para cambiar idioma
-    function changeLanguage() {
-        if (selectLang.value) {
-            window.location.href = selectLang.value;
-        }
-    }
-
-    // Evento para cambio en desktop
     if (selectLang) {
-        selectLang.addEventListener('change', changeLanguage);
-    }
+        // Función para cambiar idioma
+        function handleLanguageChange() {
+            const selectedValue = selectLang.value;
+            console.log('Idioma seleccionado:', selectedValue);
 
-    // Para móvil - detectar cuando el menú se abre/cierra si es necesario
-    const menuCheckbox = document.getElementById('menu');
-    if (menuCheckbox) {
-        menuCheckbox.addEventListener('change', function () {
-            // Si el menú se abre, asegurar que el selector funciona
-            if (this.checked) {
-                console.log('Menú móvil abierto');
+            if (selectedValue) {
+                window.location.href = selectedValue;
             }
+        }
+
+        // Evento change normal
+        selectLang.addEventListener('change', handleLanguageChange);
+
+        // Evento adicional para móvil (touch devices)
+        selectLang.addEventListener('click', function (e) {
+            console.log('Click en selector');
+        });
+
+        selectLang.addEventListener('touchstart', function (e) {
+            console.log('Touch en selector');
         });
     }
 });

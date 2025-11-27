@@ -16,7 +16,7 @@ html {
 
 /* Modificando estructura de barra de navegación y banner */
 header {
-    background-image: url(../images/Fondo\ banner.png);
+    background-image: url(../images/Fondo\ banner.jpg);
     height: 700px;
     width: auto;
     background-size: cover;
